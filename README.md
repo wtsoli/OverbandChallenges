@@ -19,6 +19,8 @@ About the solutions for web challenge from Overbond:
    2.2 
        $ ruby main.rb
        to generate the results for challenge 1 and 2, you do not need 2.1 for this
+   2.3
+       The results for the Challenge 1&2 can be found in rspec_and_main_running_result.jpg
 
 3. All the test cases are written by RSpec
 
