@@ -2,16 +2,27 @@ About the solutions for web challenge from Overbond:
 
 1. Environment setup:
 
-   1.1 $ gem install bundler
+   1.1 
+       $ gem install bundler
+
    1.2 Specify your dependencies in a Gemfile in the project’s root:
        FYI: the Gemfile in the roor directory of this project
-   1.3 $ bundle install --path .bundle
+
+   1.3 
+       $ bundle install --path .bundle
+
 2. Prepare the data and running the main.rb consuming the data generated:
-   2.1 $ ruby generate_data.rb to generate the csv data set in csv file under data, every time running this will overwrite the original csv file if existing, copy the original file if needed before running this script. now this random data is mainly used for RSpec unit tests
-   2.1 $ ruby main.rb to generate the results for challenge 1 and 2
+   2.1 
+       $ ruby generate_data.rb
+       to generate the csv data set in csv file under data, every time running this will overwrite the original csv file if existing, copy the original file if needed before running this script. now this random data is mainly used for RSpec unit tests
+
+   2.2 
+       $ ruby main.rb
+       to generate the results for challenge 1 and 2, you do not need 2.1 for this
 
 3. All the test cases are written by RSpec
-   2.1 $ bundle exec rspec   # to run the rspec test cases
+
+   3.1 $ bundle exec rspec   # to run the rspec test cases
 
 4. About duplicated best candidates in Challenge 1 and duplicated left(right) point selection for performing linear interpolation in Challenge 2
 
